@@ -41,7 +41,7 @@ const CorpoTabela = (props) => {
                 <td>{row.nrFaixasAlbum}</td>
                 <td>{row.anoAlbum}</td>
                 <td>{row.editoraAlbum}</td>
-                <td><img src="" height="50" /></td>
+                 <td><img src=" " height="50" /></td>
                 <td>{row.generoAlbum}</td>
                 <td>{row.nomeArtista}</td>
                 

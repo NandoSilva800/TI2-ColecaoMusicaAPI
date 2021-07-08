@@ -4,6 +4,7 @@
 
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 //importar componentes
 import Tabela from './Tabela';
 //importa o formulario para o utilizador inserir os dados
