@@ -1,5 +1,5 @@
 // *********************************
-// Tabela5.js
+// Tabela.js
 // *********************************
 
 import React from 'react';
@@ -41,7 +41,7 @@ const CorpoTabela = (props) => {
                 <td>{row.nrFaixasAlbum}</td>
                 <td>{row.anoAlbum}</td>
                 <td>{row.editoraAlbum}</td>
-                <td>{row.coverAlbum}</td>
+                <td><img src="" height="50" /></td>
                 <td>{row.generoAlbum}</td>
                 <td>{row.nomeArtista}</td>
                 
@@ -57,7 +57,7 @@ const CorpoTabela = (props) => {
 /**
  * componente Tabela
  */
-class tabela extends React.Component {
+class Tabela extends React.Component {
 
     render() {
         // ler os dados que foram/são fornecidos à Tabela5,
